@@ -66,7 +66,8 @@ namespace CityInfo.API
             }
             else
             {
-                app.UseExceptionHandler();
+                //TODO: this needs more research 
+                app.UseExceptionHandler("/Error");
             }
 
             app.UseStatusCodePages();
